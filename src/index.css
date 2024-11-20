@@ -1,0 +1,120 @@
+
+ body{
+  background-color: #EFE6DD;
+ }
+ .title{
+  position: relative;
+  top: -10px;
+  left: 25px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: #EF3E36;
+
+ }
+ #title-name{
+  cursor: pointer;
+ }
+.container{
+  display: flex;
+  background-color: #1A1B25;
+  height: 80vh;
+  width: 100%;
+
+}.topic{
+  position: relative;
+  padding: 15px;
+  margin: 80px 0px 0px 130px;
+  border :1px solid #FFFFFF;
+  background-color:#1A1B25;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 900;
+  font-size: large;
+  width: 500px;
+  color: #FFFFFF;
+ 
+}
+.textarea{
+  position: relative;
+  padding: 15px;
+  margin: 50px 0px 0px 130px;
+  border :1px solid #FFFFFF;
+  background-color:#1A1B25;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 900;
+  font-size: medium;
+  width: 600px;
+  height: 150px;
+  color: #FFFFFF;
+  text-decoration:underline;
+
+}
+.textarea-placeholder{
+  color:#FFFFFF
+}
+.btn{
+  padding: 10px;
+  margin: 10px 0px 0px 130px;
+  background-color:#EF3E36; 
+  width: 80px;
+  color: #FFFFFF;
+  align-items: center;
+  border-radius: 40px;
+  border:1px solid black;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+
+}
+.heading{
+  justify-content: center;
+  text-align: center;
+  font-weight: 800;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+.output-box{
+  width: 65%;
+  position: relative;
+  height: 150px;
+  margin: 20px;
+  background-color: #FCD0A1;
+  top:50px;
+  left: 200px;
+  visibility: none;
+  color:#FFFFFF;
+  border: 1px solid black;
+  border-radius: 5px;
+  justify-content: center;
+}
+.topic-name{
+  position: relative;
+  top: 30px;
+  left: 20px;
+  font-size: larger;font-weight: 700;
+  font-family:Arial, Helvetica, sans-serif;
+  color: black;
+
+}
+.text-area{
+  position: relative;
+  top: 35px;
+  left: 20px;
+  font-size: medium;font-weight: 400;
+  font-family:Arial, Helvetica, sans-serif;
+  color: black;
+
+}
+.delete-btn{
+  position:sticky;
+  left:950px;
+  top: 50px;
+  border-radius: 40px;
+  border:1px solid black;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  background-color: red;
+  color: #FFFFFF;
+  padding: 5px;
+  cursor: pointer;
+}
